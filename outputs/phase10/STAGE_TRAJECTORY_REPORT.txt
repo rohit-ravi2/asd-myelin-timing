@@ -1,0 +1,61 @@
+====================================================================================================
+§66/§86/§87 PROGRAMME TRAJECTORIES ALONG THE OPC->MOL AXIS (atlas 2)
+====================================================================================================
+values are min-max normalised across the 5 stages (1.00 = that programme's peak stage);
+each stage averaged over donors contributing >=10 cells to it.
+cells per stage: OPC=1736  COP=2087  NFOL=2956  MFOL=654  MOL=2958
+
+programme                    OPC    COP   NFOL   MFOL    MOL   peak
+RCPT_IL6_classic            1.00   0.71   0.52   0.55   0.00   OPC
+RCPT_IL6_gp130              0.84   1.00   0.90   0.50   0.00   COP
+RCPT_IL1                    1.00   0.25   0.28   0.03   0.00   OPC
+RCPT_TNFR1                  1.00   0.51   0.26   0.39   0.00   OPC
+RCPT_TNFR2                   -      -      -      -      -     OPC
+RCPT_IL17                   1.00   0.53   0.50   0.00   0.29   OPC
+RCPT_IFNg                   0.82   1.00   0.74   0.39   0.00   COP
+RCPT_IFN_I                  0.59   1.00   0.84   0.22   0.00   COP
+RCPT_ADORA1                 0.40   1.00   0.67   0.62   0.00   COP
+RCPT_TGFb                   0.62   1.00   0.76   0.00   0.32   COP
+RCPT_complement             0.03   0.01   0.00   1.00   0.08   MFOL
+LIPID_chol_synthesis        0.23   1.00   0.61   0.00   0.18   COP
+LIPID_sphingo_VLCFA         0.00   1.00   0.76   0.32   0.07   COP
+LIPID_plasmalogen_perox     0.16   1.00   0.72   0.27   0.00   COP
+LIPID_uptake                1.00   1.00   0.57   0.00   0.31   COP
+MYELIN_structural           0.00   0.32   0.51   0.61   1.00   MOL
+CHROMATIN_state             0.78   1.00   0.88   0.37   0.00   COP
+SFARI_top                   1.00   0.77   0.74   0.35   0.00   OPC
+STRESS_ISR                  0.53   1.00   0.78   0.09   0.00   COP
+IMMUNE_response             1.00   0.81   0.63   0.25   0.00   OPC
+OXPHOS_mito                 0.65   1.00   0.63   0.12   0.00   COP
+
+DONOR CONTRIBUTIONS per stage (guards against single-donor artefacts):
+   fetal      OPC   n=128
+   fetal      COP   n=58
+   fetal      NFOL  n=52
+   fetal      MFOL  n=63
+   fetal      MOL   n=58
+   2yr_a      OPC   n=195
+   2yr_a      COP   n=362
+   2yr_a      NFOL  n=466
+   2yr_a      MFOL  n=116
+   2yr_a      MOL   n=421
+   2yr_b      OPC   n=302
+   2yr_b      COP   n=259
+   2yr_b      NFOL  n=278
+   2yr_b      MFOL  n=81
+   2yr_b      MOL   n=956
+   13yr       OPC   n=599
+   13yr       COP   n=595
+   13yr       NFOL  n=1026
+   13yr       MFOL  n=194
+   13yr       MOL   n=672
+   adult_62   OPC   n=376
+   adult_62   COP   n=554
+   adult_62   NFOL  n=772
+   adult_62   MFOL  n=134
+   adult_62   MOL   n=583
+   adult_58   OPC   n=136
+   adult_58   COP   n=259
+   adult_58   NFOL  n=362
+   adult_58   MFOL  n=66
+   adult_58   MOL   n=268

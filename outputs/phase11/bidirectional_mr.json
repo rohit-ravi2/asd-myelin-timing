@@ -1,0 +1,70 @@
+{
+ "A_ICVF_CingCingGyrus_L_to_ASD": {
+  "n_snp": 31,
+  "ivw": 0.08204633619334238,
+  "ivw_se": 0.04670036433844866,
+  "ivw_p": 0.07894045535951832,
+  "wmed": 0.07409980184718884,
+  "egger_slope": 0.08548132681796025,
+  "egger_intercept": 0.0012444116630373984,
+  "egger_int_p": 0.7238653100923826,
+  "Q": 38.75824310338029,
+  "Q_df": 30,
+  "steiger_note": "exposure variance explained > outcome (assumed)"
+ },
+ "A_ICVF_SLF_L_to_ASD": {
+  "n_snp": 30,
+  "ivw": 0.05892414699604971,
+  "ivw_se": 0.04836495074854971,
+  "ivw_p": 0.22310113448602076,
+  "wmed": 0.051370533785172624,
+  "egger_slope": 0.05926246090098526,
+  "egger_intercept": 0.003670739335393953,
+  "egger_int_p": 0.32113786061674965,
+  "Q": 44.31752519746418,
+  "Q_df": 29,
+  "steiger_note": "exposure variance explained > outcome (assumed)"
+ },
+ "A_ICVF_AntCoronaRad_L_to_ASD": {
+  "n_snp": 32,
+  "ivw": 0.06688790749861237,
+  "ivw_se": 0.050861183234806734,
+  "ivw_p": 0.1884738822740082,
+  "wmed": 0.07134948600009017,
+  "egger_slope": 0.06410298606455414,
+  "egger_intercept": 0.0017982401850001608,
+  "egger_int_p": 0.6179124708248422,
+  "Q": 45.284117156028636,
+  "Q_df": 31,
+  "steiger_note": "exposure variance explained > outcome (assumed)"
+ },
+ "A_ICVF_Genu_CC_to_ASD": {
+  "n_snp": 33,
+  "ivw": 0.09084144303282511,
+  "ivw_se": 0.04083959818434202,
+  "ivw_p": 0.02612509801437235,
+  "wmed": 0.06679045851936677,
+  "egger_slope": 0.09112377289286241,
+  "egger_intercept": 0.0002288834012469392,
+  "egger_int_p": 0.9447096334092016,
+  "Q": 40.185910169659124,
+  "Q_df": 32,
+  "steiger_note": "exposure variance explained > outcome (assumed)"
+ },
+ "B_ASD_to_ICVF_CingCingGyrus_L": {
+  "n_snp": 2,
+  "note": "too few instruments"
+ },
+ "B_ASD_to_ICVF_SLF_L": {
+  "n_snp": 2,
+  "note": "too few instruments"
+ },
+ "B_ASD_to_ICVF_AntCoronaRad_L": {
+  "n_snp": 2,
+  "note": "too few instruments"
+ },
+ "B_ASD_to_ICVF_Genu_CC": {
+  "n_snp": 2,
+  "note": "too few instruments"
+ }
+}

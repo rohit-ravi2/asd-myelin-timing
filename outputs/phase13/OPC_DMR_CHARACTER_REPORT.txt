@@ -1,0 +1,22 @@
+====================================================================================================
+DOES THE STRONGEST VERSION HOLD? — content of the OPC epigenetic signal
+====================================================================================================
+background for every test = the OPC-tested CpG bins themselves
+
+P4 — DIRECTION of significant diagnosis effects (hyper : hypo):
+   OPC        hyper=   98 hypo=  174  (36.0% hyper)
+   Astro      hyper=   89 hypo=  141  (38.7% hyper)
+   ExcL45IT   hyper=   56 hypo=  173  (24.5% hyper)
+   Oligo      hyper=   78 hypo=  125  (38.4% hyper)
+   Micro      hyper=   75 hypo=  126  (37.3% hyper)
+   InhMGE     hyper=   67 hypo=   82  (45.0% hyper)
+   InhCGE     hyper=   46 hypo=  101  (31.3% hyper)
+   ExcL23IT   hyper=   49 hypo=   94  (34.3% hyper)
+
+P2/P3 — module enrichment WITHIN OPC (immune vs developmental):
+module                   sig  tested     rate  bg rate     OR         p        q
+
+P5 — SFARI flag among OPC significant bins: 0/3 (0.0%)
+
+top OPC genes by number of significant CpG bins:
+   FAM225A(1/1), OR5G5P(1/1), OR5BC1P(1/1)

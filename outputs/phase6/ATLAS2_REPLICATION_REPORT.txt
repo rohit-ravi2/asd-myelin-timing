@@ -1,0 +1,26 @@
+====================================================================================================
+§8-16 INDEPENDENT OL-ATLAS REPLICATION — GSE155488
+====================================================================================================
+10391 OL-lineage cells, 10922 genes with ASD Z + covariates
+stage assignment (argmax of marker score):
+   OPC      996 cells
+   COP     1954 cells
+   NFOL    3262 cells
+   MFOL     710 cells
+   MOL     3469 cells
+
+maturation score            beta_naive    p_naive   beta_cond     p_cond
+A_pseudotime_corr              -0.0189      0.861     -0.0728      0.528
+B_stage_centroid               +0.0125      0.616     -0.0071      0.813
+C_mature_vs_OPC                +0.0035      0.639     -0.0015      0.867
+
+D. ASD Z (covariate-residualised) by stage bin:
+   OPC   n=   363  mean resid Z = +0.0103
+   COP   n=  1655  mean resid Z = +0.0027
+   NFOL  n=  8903  mean resid Z = -0.0008
+   MFOL  n=     1  mean resid Z = -1.0139
+   quadratic: lin=-0.0009 (p=0.993) quad=-0.00239 (p=0.954) vertex=-0.19345545675052106
+
+PERMUTATION (1000): obs t=-0.24, null -0.07+/-1.02, empirical p=0.8062
+
+CAVEAT (§8): surgical tissue; donors not neurologically normal. Fetal n=360 pooled.

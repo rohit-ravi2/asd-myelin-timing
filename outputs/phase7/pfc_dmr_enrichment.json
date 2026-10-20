@@ -1,0 +1,73 @@
+{
+ "rows": [
+  {
+   "cell_type": "ExcL45IT",
+   "cyto": "CpA",
+   "module": "COMPLEMENT",
+   "sig_in": 0,
+   "tot_in": 50,
+   "rate_in": 0.0,
+   "rate_out": 0.0021117296985985793,
+   "OR": 0.0,
+   "p": 1.0,
+   "q": 1.0
+  },
+  {
+   "cell_type": "ExcL45IT",
+   "cyto": "CpA",
+   "module": "NEG_KERATIN",
+   "sig_in": 0,
+   "tot_in": 84,
+   "rate_in": 0.0,
+   "rate_out": 0.00211864406779661,
+   "OR": 0.0,
+   "p": 1.0,
+   "q": 1.0
+  }
+ ],
+ "celltype_totals": {
+  "Astro": [
+   239,
+   20953
+  ],
+  "ExcL23IT": [
+   156,
+   144038
+  ],
+  "ExcL45IT": [
+   3939,
+   2288024
+  ],
+  "InhCGE": [
+   169,
+   11858
+  ],
+  "InhMGE": [
+   157,
+   10784
+  ],
+  "Micro": [
+   201,
+   15213
+  ],
+  "Oligo": [
+   203,
+   15681
+  ],
+  "OPC": [
+   272,
+   12586
+  ]
+ },
+ "ctx_totals": {
+  "CpA": [
+   3762,
+   2392820
+  ],
+  "CpG": [
+   1574,
+   126317
+  ]
+ },
+ "n_rows": 2519137
+}

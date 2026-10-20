@@ -1,0 +1,27 @@
+============================================================================================================
+§17-22 ASD PFC single-nucleus methylation — diagnosis-DMR enrichment
+============================================================================================================
+2519137 tested 500bp bins. Background = tested bins of the SAME cell type and cytosine
+context. This is not nearest-gene mapping.
+
+§21 PRIMARY — ASD-diagnosis DMR rate by cell type:
+cell type             sig     tested     rate
+OPC                   272      12586  0.02161
+InhMGE                157      10784  0.01456
+InhCGE                169      11858  0.01425
+Micro                 201      15213  0.01321
+Oligo                 203      15681  0.01295
+Astro                 239      20953  0.01141
+ExcL45IT             3939    2288024  0.00172
+ExcL23IT              156     144038  0.00108
+
+by cytosine context:
+   CpA    sig=3762 tested=2392820 rate=0.00157
+   CpG    sig=1574 tested=126317 rate=0.01246
+
+§18-20 module enrichment (BH q<0.1 shown; full table in JSON):
+cell         cyto  module              sigIn   totIn   rateIn  rateOut     OR         p         q
+   (none at q<0.1)
+
+CAVEAT: postmortem PFC; ASD effects small relative to age effects. A null here
+does NOT refute a prenatal regulatory mechanism -- it constrains the adult endpoint.

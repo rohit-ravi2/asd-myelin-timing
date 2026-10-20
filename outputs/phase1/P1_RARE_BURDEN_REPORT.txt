@@ -1,0 +1,89 @@
+============================================================================================================
+P1.6  de novo burden, SSC autism probands vs unaffected siblings
+============================================================================================================
+probands=2140  siblings=1614  expected case share=0.5701
+matched_p = vs 1000 gene sets matched on CDS-length decile x LOEUF decile
+rate_ratio > 1 means excess in probands.  Counts shown so weak cells are visible.
+
+module                         class        case  ctrl      RR         p  matchP  note
+ATLAS_COP_specific             LoF            37     2   13.95  0.00e+00   0.018  
+ATLAS_OLlineage_specific       LoF            44     4    8.30  0.00e+00   0.036  
+CHROMATIN_REG                  LoF           291    54    4.06  0.00e+00   0.004  
+GATE6_NEUROGENIC_GLIOGENIC_SWITCH LoF            64     1   48.27  0.00e+00   0.186  
+SFARI_ALL                      LoF           492    74    5.01  0.00e+00   0.002  
+SFARI_SCORE1                   LoF           302     9   25.31  0.00e+00   0.004  
+SYNAPTIC                       LoF           201    71    2.13  0.00e+00   0.258  
+ATLAS_OPC_specific             missense      103    28    2.77  0.00e+00   0.005  
+SFARI_ALL                      missense     1037   470    1.66  0.00e+00   0.003  
+OPC_VELM                       synonymous     58     9    4.86  0.00e+00   0.012  
+MYELIN                         LoF            42     5    6.33  2.00e-06   0.058  
+EXC_NEURON_VELM                LoF            46     8    4.34  1.30e-05   0.120  
+EXC_NEURON_VELM                missense       37    67    0.42  1.50e-05   0.998  
+OPC_VELM                       missense      120    44    2.06  2.50e-05   0.047  
+SFARI_SCORE1                   missense      253   123    1.55  5.70e-05   0.142  
+OPC_VELM                       LoF            31     4    5.84  1.00e-04   0.124  
+ENDOTHELIAL_VELM               LoF            43     9    3.60  1.17e-04   0.169  
+MYELIN                         missense      109    42    1.96  1.42e-04   0.035  
+EXC_NEURON_VELM                synonymous     70    25    2.11  8.65e-04   0.113  
+MICROGLIA_VELM                 synonymous     48    15    2.41  2.05e-03   0.079  
+CHOL_BIOSYNTHESIS              synonymous     26     6    3.27  6.47e-03   0.041  
+SFARI_ALL                      synonymous    344   204    1.27  7.27e-03   0.200  
+GATE6_NEUROGENIC_GLIOGENIC_SWITCH synonymous     12     1    9.05  9.92e-03   0.077  
+CHOL_TRANSPORT                 missense       81    91    0.67  1.08e-02   0.918  
+SYNAPTIC                       missense      690   447    1.16  1.33e-02   0.248  
+SFARI_SCORE1                   synonymous     74    34    1.64  1.52e-02   0.228  
+ATLAS_Progenitor_specific      LoF             5    12    0.31  2.67e-02   0.916  
+CHROMATIN_REG                  synonymous    221   132    1.26  3.59e-02   0.206  
+CHOL_BIOSYNTHESIS              missense       37    44    0.63  4.33e-02   0.869  
+ATLAS_Progenitor_specific      missense       47    22    1.61  6.82e-02   0.157  
+OLIGODENDROCYTE_VELM           missense       69    71    0.73  7.28e-02   0.902  
+ATLAS_Astrocyte_specific       missense       87    48    1.37  8.27e-02   0.213  
+GATE6_NEUROGENIC_GLIOGENIC_SWITCH missense       31    13    1.80  9.29e-02   0.220  
+MICROGLIA_VELM                 LoF            21     8    1.98  1.32e-01   0.389  
+OLIGODENDROCYTE_VELM           LoF            17    21    0.61  1.41e-01   0.935  
+SYNAPTIC                       synonymous    264   228    0.87  1.46e-01   0.822  
+MICROGLIA_VELM                 missense       91    53    1.29  1.52e-01   0.294  
+CHOL_ENZ_CURATED               synonymous     14     5    2.11  1.68e-01   0.274  
+LIPOPROTEIN_NONAPOE            synonymous     14     5    2.11  1.68e-01   0.273  
+MYELIN_CORE_CURATED            synonymous      1     4    0.19  1.72e-01   0.529  low count
+LIPID_TRANSPORT                LoF            31    15    1.56  1.81e-01   0.393  
+MYELIN_CORE_CURATED            LoF             0     2     inf  1.85e-01   0.630  low count
+KERATINIZATION                 LoF            17    20    0.64  1.87e-01   0.916  
+ATLAS_COP_specific             missense       37    37    0.75  2.41e-01   0.849  
+ATLAS_OPC_specific             LoF             9     3    2.26  2.54e-01   0.289  
+ATLAS_Neuron_specific          synonymous     13    15    0.65  2.60e-01   0.773  
+CHOL_ENZ_CURATED               missense       14    16    0.66  2.72e-01   0.701  
+LIPOPROTEIN_NONAPOE            missense       14    16    0.66  2.72e-01   0.699  
+ENDOTHELIAL_VELM               missense       69    43    1.21  3.41e-01   0.392  
+ATLAS_Progenitor_specific      synonymous     14    15    0.70  3.54e-01   0.629  
+CHOL_ENZ_CURATED               LoF             2     4    0.38  4.13e-01   0.767  low count
+LIPOPROTEIN_NONAPOE            LoF             2     4    0.38  4.13e-01   0.755  low count
+APOE_CLUSTER                   synonymous      0     1     inf  4.30e-01   0.206  low count
+ATLAS_Neuron_specific          missense       47    42    0.84  4.54e-01   0.720  
+ATLAS_Microglia_specific       missense       39    35    0.84  4.82e-01   0.754  
+KERATINIZATION                 missense      125   103    0.92  5.04e-01   0.643  
+OLFACTORY_RECEPTOR             missense       89    60    1.12  5.10e-01   0.357  
+MYELIN_CORE_CURATED            missense        2     0     inf  5.10e-01   0.229  low count
+MYELIN                         synonymous     33    30    0.83  5.25e-01   0.627  
+OLFACTORY_RECEPTOR             synonymous     28    17    1.24  5.48e-01   0.369  
+CHOL_TRANSPORT                 synonymous     48    31    1.17  5.70e-01   0.348  
+ATLAS_Microglia_specific       synonymous     20    12    1.26  5.95e-01   0.342  
+ENDOTHELIAL_VELM               synonymous     19    17    0.84  6.18e-01   0.666  
+OLFACTORY_RECEPTOR             LoF            11     6    1.38  6.28e-01   0.609  
+ATLAS_OLlineage_specific       synonymous     27    17    1.20  6.49e-01   0.344  
+OLIGODENDROCYTE_VELM           synonymous     28    18    1.17  6.57e-01   0.369  
+ATLAS_COP_specific             synonymous     16    14    0.86  7.15e-01   0.575  
+ATLAS_Neuron_specific          LoF            14     9    1.17  8.34e-01   0.618  
+LIPID_TRANSPORT                synonymous     61    44    1.05  8.44e-01   0.406  
+KERATINIZATION                 synonymous     59    47    0.95  8.45e-01   0.498  
+ATLAS_Microglia_specific       LoF            19    13    1.10  8.59e-01   0.573  
+CHROMATIN_REG                  missense      518   386    1.01  8.84e-01   0.643  
+ATLAS_Astrocyte_specific       LoF             7     5    1.06  1.00e+00   0.581  
+CHOL_BIOSYNTHESIS              LoF             7     5    1.06  1.00e+00   0.688  
+CHOL_TRANSPORT                 LoF            14    11    0.96  1.00e+00   0.774  
+ATLAS_OLlineage_specific       missense       56    42    1.01  1.00e+00   0.582  
+LIPID_TRANSPORT                missense      140   105    1.01  1.00e+00   0.565  
+ATLAS_Astrocyte_specific       synonymous     23    17    1.02  1.00e+00   0.439  
+ATLAS_OPC_specific             synonymous     22    17    0.98  1.00e+00   0.517  
+APOE_CLUSTER                   LoF             0     0     inf        NA      NA  NO DE NOVO CALLS - uninformative
+APOE_CLUSTER                   missense        0     0     inf        NA      NA  NO DE NOVO CALLS - uninformative

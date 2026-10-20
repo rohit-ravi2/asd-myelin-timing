@@ -1,0 +1,51 @@
+==============================================================================================================
+CONDITIONAL GATE COMPETITION — ASD common-variant gene-level Z
+==============================================================================================================
+genes=13739  covariates: LOEUF, logCDS, logExpr, logNSNP, OLspecificity
+marginal = module + covariates.   joint = ALL modules together + covariates.
+matchP = 1000 LOEUF x CDS x expression matched sets, joint coefficient re-estimated.
+
+module                           n  beta_marg    p_marg  beta_joint   p_joint  matchP
+REF_SFARI_ALL                 1077    +0.1325  0.000234     +0.1295   0.00113   0.001
+G5d_PEROXISOME_PLASMALOGEN     160    -0.1733    0.0446     -0.1718    0.0506   0.063
+NEG_OLFACTORY                  130    +0.1695    0.0767     +0.1409     0.147   0.147
+G6_MITOCARTA                   939    +0.0639    0.0882     +0.0701    0.0631   0.082
+G8_IRON                        451    -0.0777     0.136     -0.0749     0.154   0.157
+G10_ACTIVITY_MYELIN            641    +0.0660     0.138     +0.0566     0.258   0.275
+G7d_ER_STRESS_ISR              336    -0.0861     0.152     -0.0802     0.183   0.181
+G5c_SPHINGO_VLCFA              297    -0.0898     0.158     -0.0777     0.244   0.244
+G9b_INTERNEURON_EI             220    +0.0988     0.182     +0.0463     0.561   0.563
+G9a_SYNAPTIC                  1140    +0.0415     0.225     +0.0019     0.961   0.959
+REF_SFARI_S1                   214    +0.0888     0.243     -0.0338     0.686   0.687
+NEG_KERATIN                    257    -0.0751     0.273     -0.0725     0.305   0.297
+G7f_THYROID                    152    +0.0717     0.418     +0.0687     0.452   0.447
+G5a_CHOL_SYNTHESIS             229    -0.0552     0.445     -0.0460     0.533   0.563
+G3c_OL_MATURATION              262    +0.0445     0.513     +0.0497     0.475   0.477
+G5b_CHOL_TRAFFICKING           453    +0.0233     0.654     +0.0442     0.409   0.394
+G7e_NOTCH                      260    -0.0205     0.763     -0.0202     0.776   0.765
+G7a_WNT                        563    -0.0141     0.765     -0.0250     0.613   0.623
+G7b_ERK_MAPK                   622    +0.0086     0.848     -0.0016     0.974   0.978
+G11_IMMUNE_NICHE              1260    -0.0060     0.852     -0.0050     0.886   0.882
+G1_CHROMATIN_STATE             548    -0.0080     0.867     -0.0158     0.743   0.740
+G7c_MTOR_PI3K                  434    -0.0070     0.896     -0.0094     0.867   0.863
+
+covariates in joint model:
+   LOEUF            beta=-0.0288 t=-1.16 p=0.247
+   logCDS           beta=+0.0199 t=+1.30 p=0.192
+   logExpr          beta=+0.0323 t=+4.65 p=3.28e-06
+   logNSNP          beta=-0.0345 t=-2.63 p=0.00852
+   OLspecificity    beta=+0.0102 t=+1.04 p=0.298
+
+==============================================================================================================
+PRE-SPECIFIED NESTED CONTRASTS
+==============================================================================================================
+contrast                                          b_marg    p_marg    b_cond    p_cond   atten
+C1 cholesterol synthesis | OL lineage            -0.0552     0.445   -0.0557     0.441     -1%
+C1 cholesterol trafficking | OL lineage          +0.0233     0.654   +0.0217     0.676      7%
+C1 sphingolipid/VLCFA | OL lineage               -0.0898     0.158   -0.0983     0.127     -9%
+C1 peroxisome/plasmalogen | OL lineage           -0.1733    0.0446   -0.1745    0.0432     -1%
+C2 OPC prolif | chromatin                           +nan       nan      +nan       nan      NA
+C2 OPC diff-timing | chromatin                      +nan       nan      +nan       nan      NA
+C3 myelin output | OL maturation                    +nan       nan      +nan       nan      NA
+C4 mitochondrial | OL lineage                    +0.0639    0.0882   +0.0643    0.0862     -1%
+C5 fate-switch | chromatin                          +nan       nan      +nan       nan      NA

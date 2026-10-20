@@ -1,0 +1,53 @@
+========================================================================================================
+TEST D2: brain-regulatory support for cholesterol/myelin loci with nominal ASD signal
+========================================================================================================
+eQTL = PsychENCODE Phase I adult DLPFC (n~1866, hg19, full nominal)
+mQTL = Hannon fetal brain (Bonferroni-significant only)
+GoDMC blood mQTL: NOT on disk (assoc file never downloaded) -- absent from this run
+
+gene         role                ASD min_p  empRegP       lead SNP  best eQTL p  lead=eQTL p fetal mQTL
+MOG          PRIMARY-finemap      1.69e-06    0.009       rs740883       0.0146            -          -
+FDFT1        PRIMARY              1.81e-05    0.021      rs2088346     1.03e-08            -          -
+DHCR7        PRIMARY-syndromic    2.88e-05    0.018     rs35213797      1.2e-09            -          -
+NPC2         PRIMARY              0.000112    0.027     rs74779748     1.28e-05            -          -
+SOX10        MYELIN               0.000182    0.031     rs35808153     7.43e-07            -          -
+HMGCR        PRIMARY              0.000361    0.087    rs187650866      3.9e-09            -          -
+SREBF2       PRIMARY-finemap      0.000434    0.108     rs34293106     6.53e-08        0.381          -
+ABCA1        PRIMARY              0.000443    0.194    rs146573885     4.33e-09            -          -
+OLIG2        MYELIN               0.000466    0.100      rs2834033         none            -          -
+ABCG1        PRIMARY              0.000737    0.275     rs73223569      1.2e-11            -          -
+QKI          MYELIN               0.000936    0.298    rs147907189         none            -          -
+NPC1         PRIMARY-syndromic     0.00114    0.184    rs113504834      1.4e-31            -          -
+SCAP         PRIMARY               0.00115    0.137     rs73081287     6.47e-32       0.0108          -
+LRP1         PRIMARY-finemap        0.0012    0.163 chr12:57658403     0.000464            -          -
+MAG          MYELIN                0.00168    0.312     rs12459611      0.00148            -          -
+SREBF1       PRIMARY               0.00183    0.179      rs4925126      0.00259            -          -
+LSS          PRIMARY               0.00224    0.436     rs77745490     3.79e-30        0.585          -
+GJC2         MYELIN                0.00234    0.220    rs113902742     4.48e-05        0.898          -
+MOBP         MYELIN                0.00305    0.479      rs9859684         none            -          -
+MBP          MYELIN                 0.0037    0.674    rs112629347      0.00105            -          -
+LDLR         PRIMARY               0.00378    0.532     rs58019693     8.52e-06        0.896          -
+SQLE         PRIMARY               0.00419    0.499     rs10956225     3.48e-05            -          -
+DHCR24       PRIMARY               0.00464    0.576     rs17111142     1.87e-10            -          -
+PMP22        MYELIN                0.00466    0.561     rs80002677     1.37e-08            -          -
+SOAT1        PRIMARY               0.00483    0.714     rs10670085      2.7e-11            -          -
+INSIG1       PRIMARY               0.00494    0.677      rs4960715     0.000538            -          -
+APOE         CONTRAST-primary      0.00519    0.568     rs61642202         none            -          -
+TOMM40       CONTRAST              0.00519    0.571     rs61642202         none            -          -
+APOC1        CONTRAST              0.00519    0.555     rs61642202         none            -          -
+OLIG1        MYELIN                0.00532    0.540     rs11702285      0.00109            -          -
+CNP          MYELIN                0.00568    0.421 chr17:40110678      0.00313            -          -
+ABCA2        PRIMARY               0.00747    0.614     rs62580411     0.000239            -          -
+HMGCS1       PRIMARY               0.00841    0.634    rs112476265     1.96e-16            -          -
+MYRF         MYELIN                0.00922    0.611    rs185148480     0.000757        0.815          -
+UGT8         MYELIN                0.00995    0.794    rs147611318      0.00213        0.524          -
+CLDN11       MYELIN                 0.0104    0.704     rs79752177     0.000355        0.522          -
+INSIG2       PRIMARY                0.0109    0.745     rs17586756         none            -          -
+MVD          PRIMARY                 0.011    0.786      rs7203305     8.82e-06            -          -
+MVK          PRIMARY                0.0133    0.815    rs144201127     1.63e-48      2.7e-15          -
+SC5D         PRIMARY                0.0172    0.878     rs12805207         none            -          -
+CYP46A1      PRIMARY                0.0182    0.877     rs58375254     0.000129        0.322          -
+CYP51A1      PRIMARY                0.0287    0.867     rs80306000     2.21e-41            -          -
+IDI1         PRIMARY                0.0288    0.952    rs137954053         none            -          -
+MAL          MYELIN                  0.029    0.644    rs150152179     7.92e-05        0.558          -
+MSMO1        PRIMARY                0.0344    0.978     rs56313859         none            -          -

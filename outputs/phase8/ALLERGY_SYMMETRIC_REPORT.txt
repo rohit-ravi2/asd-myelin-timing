@@ -1,0 +1,20 @@
+============================================================================================
+SYMMETRIC TEST — cell-type localisation of ASD vs ALLERGY liability
+============================================================================================
+identical model, gene-property conditioned (LOEUF, logCDS, logExpr, logNSNPs);
+atlas 1 (GSE294786 human infant PFC) cell-type specificity as predictor.
+ASD n=13739 genes | ALLERGY n=14195 genes
+
+lineage      ASD beta    ASD t      ASD p     ALL beta    ALL t      ALL p
+neuron        +0.0430    +3.08     0.0021      -0.0819    -4.77   1.83e-06
+ol            +0.0082    +0.84        0.4      -0.0095    -0.80      0.424
+opc           +0.0003    +0.03      0.974      -0.0268    -2.08     0.0375
+cop           +0.0021    +0.27      0.785      -0.0097    -1.01      0.311
+astro         -0.0042    -0.51      0.607      +0.0292    +2.91    0.00364
+micro         -0.0118    -1.95     0.0515      +0.0466    +6.30    2.9e-10
+
+READING:
+  (a) allergy OL-positive & ASD OL-null -> immune->OL genetic bridge exists, ASD enters elsewhere
+  (b) both OL-null                      -> NO genetic form of the immune->OL bridge in either trait;
+                                           any immune->OL effect must be exposure-driven, not encoded
+  (c) both OL-positive                  -> shared route

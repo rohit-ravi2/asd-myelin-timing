@@ -1,0 +1,89 @@
+{
+  "confounds": {
+    "fracOPC_vs_log_ncells": {
+      "r": -0.6964306727187314,
+      "p": 1.3529854646670592e-05,
+      "n": 31
+    },
+    "fracOPC_vs_age_controls": {
+      "r": -0.6860569640341252,
+      "p": 0.0033420615034363715,
+      "n": 16
+    },
+    "fracOPC_vs_age_asd": {
+      "r": 0.21807158115668482,
+      "p": 0.43492964617076607,
+      "n": 15
+    },
+    "stage_vs_log_ncells": {
+      "r": 0.7013025963345497,
+      "p": 1.1086369267973672e-05,
+      "n": 31
+    },
+    "stage_vs_RIN": {
+      "r": 0.5011588309311478,
+      "p": 0.004080127046314044,
+      "n": 31
+    },
+    "stage_vs_PMI": {
+      "r": -0.40823819081637314,
+      "p": 0.02261205039596264,
+      "n": 31
+    },
+    "ncells_vs_age": {
+      "r": 0.2979486486055256,
+      "p": 0.10353479079798568,
+      "n": 31
+    }
+  },
+  "bh_prespecified": {
+    "PRIMARY_OL_stage": 0.275639102756391,
+    "CONTROL_AST_OLpanel": 0.275639102756391,
+    "CONTROL_EXC_OLpanel": 0.30884411558844116,
+    "CONTROL_AST_analogous": 0.275639102756391,
+    "CONTROL_EXC_analogous": 0.48405159484051596
+  },
+  "power_curve_alpha05_adj": [
+    {
+      "cohen_d": 0.2,
+      "stage_units": 0.082,
+      "power": 0.08362901658937996
+    },
+    {
+      "cohen_d": 0.4,
+      "stage_units": 0.163,
+      "power": 0.18894114290105155
+    },
+    {
+      "cohen_d": 0.5,
+      "stage_units": 0.204,
+      "power": 0.26876451834522724
+    },
+    {
+      "cohen_d": 0.6,
+      "stage_units": 0.245,
+      "power": 0.363420529624422
+    },
+    {
+      "cohen_d": 0.8,
+      "stage_units": 0.326,
+      "power": 0.5739561852831938
+    },
+    {
+      "cohen_d": 1.0,
+      "stage_units": 0.408,
+      "power": 0.7649637957008287
+    },
+    {
+      "cohen_d": 1.2,
+      "stage_units": 0.489,
+      "power": 0.8958134535928696
+    },
+    {
+      "cohen_d": 1.5,
+      "stage_units": 0.611,
+      "power": 0.9803540426176961
+    }
+  ],
+  "power_note": "n_ASD=15, n_ctrl=16, model stage ~ dx + age + sex (df=27). Donor-level pooled SD of the OL stage score = 0.408 stage units."
+}

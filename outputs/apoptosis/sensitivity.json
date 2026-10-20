@@ -1,0 +1,8 @@
+{
+ "APOP_x_OLIGO_full": 0.0192,
+ "APOP_x_OLIGO_functional": 0.0134,
+ "OLIGO_full": 0.0552,
+ "MTORopathy": 0.014,
+ "CHROMATIN_REMODELING_posctrl": 0.0004,
+ "SYNAPSE_posctrl": 0.0
+}

@@ -1,0 +1,13 @@
+data/
+*.sumstats.gz
+*.gz
+*.bgz
+*.npz
+*.npy
+*.rds
+__pycache__/
+.ipynb_checkpoints/
+outputs/magma/*.pval
+outputs/magma/*.snploc
+outputs/magma/*.genes.*
+outputs/sldsc/annot/

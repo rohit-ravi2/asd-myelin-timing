@@ -1,0 +1,111 @@
+================================================================================================================
+§127-129 CONDUCTION-DELAY DISPERSION MODEL
+================================================================================================================
+20000 axons/scenario. D ~ N(0.8,0.36) um; g ~ N(0.7,0.045);
+v calibrated to 5.5 m/s at D=1um, g=0.70.
+KEY QUANTITY is sigma_d (arrival-time SD), not mean delay.
+
+--- short association (U-fibre)  (L = 20 mm) ----------------------------------
+scenario                            mean ms  sigma ms   d_mean  d_sigma  sigma x       5-95% ms
+baseline                               6.10      4.64    -0.03    -0.07     0.98    2.6-16.6   
+hypomyelination (g 0.70->0.78)         7.42      5.73    +1.29    +1.02     1.22    3.0-20.1   
+severe hypomyelination (g->0.85)       9.34      7.36    +3.22    +2.65     1.56    3.7-26.1   
+HYPERmyelination (g 0.70->0.62)        5.28      4.03    -0.85    -0.68     0.86    2.2-14.6   
+increased g variance (sd x3)           6.84      6.04    +0.71    +1.33     1.28    2.3-19.3   
+increased g variance (sd x5)           7.59      7.59    +1.47    +2.88     1.61    2.1-20.9   
+short internodes (-30%)                7.29      5.57    +1.17    +0.86     1.18    3.1-20.0   
+internode length variance              6.53      5.44    +0.41    +0.73     1.16    2.4-18.3   
+nodal dysfunction (-25% eff)           8.19      6.28    +2.07    +1.57     1.33    3.4-23.0   
+mixed: hypo + g variance               8.42      7.59    +2.30    +2.87     1.61    2.7-23.0   
+mixed: HYPER + g variance              5.62      4.75    -0.51    +0.04     1.01    2.1-15.8   
+
+--- long association (SLF/arcuate)  (L = 90 mm) ----------------------------------
+scenario                            mean ms  sigma ms   d_mean  d_sigma  sigma x       5-95% ms
+baseline                              27.63     21.21    +0.17    +0.27     1.01   11.5-77.5   
+hypomyelination (g 0.70->0.78)        33.72     26.26    +6.26    +5.33     1.25   13.8-97.6   
+severe hypomyelination (g->0.85)      42.55     34.22   +15.09   +13.29     1.64   16.8-123.4  
+HYPERmyelination (g 0.70->0.62)       23.74     18.09    -3.72    -2.84     0.86   10.0-65.7   
+increased g variance (sd x3)          30.60     27.44    +3.14    +6.50     1.31   10.5-85.5   
+increased g variance (sd x5)          34.18     34.70    +6.72   +13.77     1.66    9.4-94.1   
+short internodes (-30%)               32.71     24.97    +5.25    +4.04     1.19   13.7-89.5   
+internode length variance             29.08     23.70    +1.62    +2.77     1.13   11.2-79.5   
+nodal dysfunction (-25% eff)          36.93     28.35    +9.47    +7.42     1.35   15.4-104.7  
+mixed: hypo + g variance              38.03     34.55   +10.57   +13.62     1.65   12.0-103.6  
+mixed: HYPER + g variance             25.63     22.07    -1.83    +1.14     1.05    9.2-72.5   
+
+--- commissural (callosal)  (L = 120 mm) ----------------------------------
+scenario                            mean ms  sigma ms   d_mean  d_sigma  sigma x       5-95% ms
+baseline                              36.58     27.82    -0.33    -0.57     0.98   15.4-100.2  
+hypomyelination (g 0.70->0.78)        44.49     34.45    +7.58    +6.05     1.21   18.3-124.3  
+severe hypomyelination (g->0.85)      57.15     46.08   +20.24   +17.68     1.62   22.1-164.2  
+HYPERmyelination (g 0.70->0.62)       31.60     24.24    -5.30    -4.15     0.85   13.3-89.4   
+increased g variance (sd x3)          41.04     36.76    +4.14    +8.36     1.29   14.0-115.0  
+increased g variance (sd x5)          45.48     45.35    +8.58   +16.96     1.60   12.6-123.6  
+short internodes (-30%)               44.10     33.98    +7.20    +5.59     1.20   18.5-123.3  
+internode length variance             39.38     32.69    +2.47    +4.30     1.15   14.7-110.3  
+nodal dysfunction (-25% eff)          49.01     37.77   +12.10    +9.38     1.33   20.5-138.3  
+mixed: hypo + g variance              50.18     45.07   +13.28   +16.68     1.59   16.0-137.5  
+mixed: HYPER + g variance             33.93     29.19    -2.98    +0.80     1.03   12.3-96.8   
+
+--- projection (corticospinal)  (L = 300 mm) ----------------------------------
+scenario                            mean ms  sigma ms   d_mean  d_sigma  sigma x       5-95% ms
+baseline                              92.09     70.45    -1.56    -1.78     0.98   38.6-254.1  
+hypomyelination (g 0.70->0.78)       110.70     85.27   +17.04   +13.04     1.18   45.8-303.6  
+severe hypomyelination (g->0.85)     141.08    113.17   +47.43   +40.93     1.57   55.7-401.0  
+HYPERmyelination (g 0.70->0.62)       78.92     59.95   -14.74   -12.29     0.83   33.5-218.4  
+increased g variance (sd x3)         102.69     92.45    +9.03   +20.22     1.28   34.8-288.6  
+increased g variance (sd x5)         113.87    114.60   +20.21   +42.37     1.59   31.3-312.4  
+short internodes (-30%)              110.47     84.41   +16.82   +12.18     1.17   46.4-303.0  
+internode length variance             97.39     80.53    +3.73    +8.30     1.11   36.8-266.5  
+nodal dysfunction (-25% eff)         123.10     94.29   +29.45   +22.05     1.31   51.3-340.8  
+mixed: hypo + g variance             126.11    114.85   +32.46   +42.62     1.59   39.9-342.2  
+mixed: HYPER + g variance             84.91     73.20    -8.75    +0.97     1.01   31.1-236.2  
+
+================================================================================================================
+INTERPRETATION vs physiological timing windows
+================================================================================================================
+   feed-forward inhibition      3.0 ms
+   coincidence detection        8.0 ms
+   gamma cycle (40 Hz)         25.0 ms
+   STDP window                 20.0 ms
+
+short association (U-fibre): baseline sigma_d = 4.64 ms
+    severe hypomyelination (g->0.85)   sigma x1.56 (+2.65 ms)
+    increased g variance (sd x3)       sigma x1.28 (+1.33 ms)
+    increased g variance (sd x5)       sigma x1.61 (+2.88 ms)
+    nodal dysfunction (-25% eff)       sigma x1.33 (+1.57 ms)
+    mixed: hypo + g variance           sigma x1.61 (+2.87 ms)
+
+long association (SLF/arcuate): baseline sigma_d = 21.21 ms
+    hypomyelination (g 0.70->0.78)     sigma x1.25 (+5.33 ms); exceeds feed-forward inhibition
+    severe hypomyelination (g->0.85)   sigma x1.64 (+13.29 ms); exceeds feed-forward inhibition, coincidence detection
+    increased g variance (sd x3)       sigma x1.31 (+6.50 ms); exceeds feed-forward inhibition
+    increased g variance (sd x5)       sigma x1.66 (+13.77 ms); exceeds feed-forward inhibition, coincidence detection
+    nodal dysfunction (-25% eff)       sigma x1.35 (+7.42 ms); exceeds feed-forward inhibition
+    mixed: hypo + g variance           sigma x1.65 (+13.62 ms); exceeds feed-forward inhibition, coincidence detection
+
+commissural (callosal): baseline sigma_d = 27.82 ms
+    severe hypomyelination (g->0.85)   sigma x1.62 (+17.68 ms); exceeds feed-forward inhibition, coincidence detection
+    increased g variance (sd x3)       sigma x1.29 (+8.36 ms); exceeds feed-forward inhibition, coincidence detection
+    increased g variance (sd x5)       sigma x1.60 (+16.96 ms); exceeds feed-forward inhibition, coincidence detection
+    nodal dysfunction (-25% eff)       sigma x1.33 (+9.38 ms); exceeds feed-forward inhibition, coincidence detection
+    mixed: hypo + g variance           sigma x1.59 (+16.68 ms); exceeds feed-forward inhibition, coincidence detection
+
+projection (corticospinal): baseline sigma_d = 70.45 ms
+    severe hypomyelination (g->0.85)   sigma x1.57 (+40.93 ms); exceeds feed-forward inhibition, coincidence detection, gamma cycle (40 Hz), STDP window
+    increased g variance (sd x3)       sigma x1.28 (+20.22 ms); exceeds feed-forward inhibition, coincidence detection, STDP window
+    increased g variance (sd x5)       sigma x1.59 (+42.37 ms); exceeds feed-forward inhibition, coincidence detection, gamma cycle (40 Hz), STDP window
+    nodal dysfunction (-25% eff)       sigma x1.31 (+22.05 ms); exceeds feed-forward inhibition, coincidence detection, STDP window
+    mixed: hypo + g variance           sigma x1.59 (+42.62 ms); exceeds feed-forward inhibition, coincidence detection, gamma cycle (40 Hz), STDP window
+
+KEY STRUCTURAL RESULT (§128) -- NOT what was predicted before running:
+  Hypomyelination RAISES sigma_d; HYPERmyelination LOWERS it (sigma x0.86), and
+  HYPER + added g-variance only returns to ~baseline (x1.01). So directionally
+  heterogeneous ASD subtypes do NOT converge on a common dispersion phenotype --
+  they CANCEL in both mean AND variance across a mixed population.
+  This REFUTES the pre-written expectation (see error-log entry E-005) and makes the
+  power problem worse, not better: a mixed-subtype cohort loses signal in every
+  summary statistic, so stratification is not optional, it is required.
+
+CAVEAT: this is a cable-theory scaling model with literature-standard parameters,
+not a compartmental simulation. It bounds plausibility; it does not measure biology.

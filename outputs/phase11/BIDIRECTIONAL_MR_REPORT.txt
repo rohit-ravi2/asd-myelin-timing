@@ -1,0 +1,18 @@
+====================================================================================================
+P1.7 / §XII  BIDIRECTIONAL MR — ASD liability vs white-matter ICVF
+====================================================================================================
+DEMOTED: reconnaissance only. Cannot establish that infant OL development mediates ASD.
+Horizontal pleiotropy severe (developmental genes affect both ASD and adult imaging).
+
+test                                nSNP   IVW beta     IVW p   wMedian   Egger b Egger int p
+A_ICVF_CingCingGyrus_L_to_ASD         31    +0.0820    0.0789   +0.0741   +0.0855       0.724
+A_ICVF_SLF_L_to_ASD                   30    +0.0589     0.223   +0.0514   +0.0593       0.321
+A_ICVF_AntCoronaRad_L_to_ASD          32    +0.0669     0.188   +0.0713   +0.0641       0.618
+A_ICVF_Genu_CC_to_ASD                 33    +0.0908    0.0261   +0.0668   +0.0911       0.945
+B_ASD_to_ICVF_CingCingGyrus_L          2   too few instruments
+B_ASD_to_ICVF_SLF_L                    2   too few instruments
+B_ASD_to_ICVF_AntCoronaRad_L           2   too few instruments
+B_ASD_to_ICVF_Genu_CC                  2   too few instruments
+
+Direction B (ASD->ICVF) uses Grove's handful of genome-wide significant loci and is
+expected to be severely underpowered; a null there is uninformative by construction.

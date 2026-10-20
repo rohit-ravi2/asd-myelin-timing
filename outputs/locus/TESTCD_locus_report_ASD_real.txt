@@ -1,0 +1,65 @@
+====================================================================================================
+TEST C + D: APOE / cholesterol / myelin locus analysis  [dataset: ASD_real]
+====================================================================================================
+
+--- C1: APOE-defining SNPs -------------------------------------------
+  rs429358     APOE e4-defining       chr19:45411941  P=0.209  beta=1.02398  se=0.0188  (T/C)
+  rs7412       APOE e2-defining       chr19:45412079  P=0.5996  beta=0.98669  se=0.0254  (T/C)
+
+--- C2/D1: regional scan (gene +/-100kb), sorted by min-p ------------
+gene         role                 chr   nSNP      min_p  emp_regP  p<1e-3  p<1e-4  GWS  lead
+XRN2         POSCTRL-asd           20    639   2.04e-09     0.000     304     294   78  rs910805
+KIZ          POSCTRL-asd           20    759   2.04e-09     0.000     300     291   68  rs910805
+MACROD2      POSCTRL-asd           20   7733   2.75e-08     0.005     210     119    1  rs71190156
+KMT2E        POSCTRL-asd            7    565   1.12e-07     0.000      42       6    0  rs111931861
+CADPS        POSCTRL-asd            3   2257   2.07e-07     0.003      20      10    0  rs1452075
+MOG          PRIMARY-finemap        6   1927   1.69e-06     0.009     101      56    0  rs740883
+FDFT1        PRIMARY                8   1595   1.81e-05     0.021      63       7    0  rs2088346
+DHCR7        PRIMARY-syndromic     11    923   2.88e-05     0.018      16      12    0  rs35213797
+PTBP2        POSCTRL-asd            1    876   7.24e-05     0.036      11       2    0  rs12118093
+NEGR1        POSCTRL-asd            1   2564   8.48e-05     0.081      87       1    0  rs67474621
+NPC2         PRIMARY               14    611   0.000112     0.027      18       0    0  rs74779748
+SORCS3       POSCTRL-asd           10   2752   0.000115     0.112      72       0    0  rs11318733
+SOX10        MYELIN                22    354   0.000182     0.031       7       0    0  rs35808153
+HMGCR        PRIMARY                5    658   0.000361     0.087       2       0    0  rs187650866
+SREBF2       PRIMARY-finemap       22    831   0.000434     0.108       1       0    0  rs34293106
+ABCA1        PRIMARY                9   1646   0.000443     0.194       1       0    0  rs146573885
+OLIG2        MYELIN                21    699   0.000466     0.100       1       0    0  rs2834033
+ABCG1        PRIMARY               21   1634   0.000737     0.275       2       0    0  rs73223569
+QKI          MYELIN                 6   1383   0.000936     0.298       1       0    0  rs147907189
+NPC1         PRIMARY-syndromic     18    664    0.00114     0.184       0       0    0  rs113504834
+SCAP         PRIMARY                3    378    0.00115     0.137       0       0    0  rs73081287
+LRP1         PRIMARY-finemap       12    500     0.0012     0.163       0       0    0  chr12:57658403
+MAG          MYELIN                19    912    0.00168     0.312       0       0    0  rs12459611
+SREBF1       PRIMARY               17    364    0.00183     0.179       0       0    0  rs4925126
+LSS          PRIMARY               21   1169    0.00224     0.436       0       0    0  rs77745490
+GJC2         MYELIN                 1    427    0.00234     0.220       0       0    0  rs113902742
+MOBP         MYELIN                 3   1047    0.00305     0.479       0       0    0  rs9859684
+MBP          MYELIN                18   1710     0.0037     0.674       0       0    0  rs112629347
+LDLR         PRIMARY               19    955    0.00378     0.532       0       0    0  rs58019693
+SQLE         PRIMARY                8    854    0.00419     0.499       0       0    0  rs10956225
+DHCR24       PRIMARY                1    997    0.00464     0.576       0       0    0  rs17111142
+PMP22        MYELIN                17    844    0.00466     0.561       0       0    0  rs80002677
+SOAT1        PRIMARY                1   1426    0.00483     0.714       0       0    0  rs10670085
+INSIG1       PRIMARY                7   1250    0.00494     0.677       0       0    0  rs4960715
+APOE         CONTRAST-primary      19    796    0.00519     0.568       0       0    0  rs61642202
+TOMM40       CONTRAST              19    836    0.00519     0.571       0       0    0  rs61642202
+APOC1        CONTRAST              19    798    0.00519     0.555       0       0    0  rs61642202
+OLIG1        MYELIN                21    766    0.00532     0.540       0       0    0  rs11702285
+CNP          MYELIN                17    465    0.00568     0.421       0       0    0  chr17:40110678
+ABCA2        PRIMARY                9    638    0.00747     0.614       0       0    0  rs62580411
+HMGCS1       PRIMARY                5    675    0.00841     0.634       0       0    0  rs112476265
+MYRF         MYELIN                11    536    0.00922     0.611       0       0    0  rs185148480
+UGT8         MYELIN                 4    987    0.00995     0.794       0       0    0  rs147611318
+CLDN11       MYELIN                 3    686     0.0104     0.704       0       0    0  rs79752177
+INSIG2       PRIMARY                2    754     0.0109     0.745       0       0    0  rs17586756
+MVD          PRIMARY               16    916      0.011     0.786       0       0    0  rs7203305
+MVK          PRIMARY               12    814     0.0133     0.815       0       0    0  rs144201127
+SC5D         PRIMARY               11    859     0.0172     0.878       0       0    0  rs12805207
+CYP46A1      PRIMARY               14    792     0.0182     0.877       0       0    0  rs58375254
+CYP51A1      PRIMARY                7    413     0.0287     0.867       0       0    0  rs80306000
+IDI1         PRIMARY               10    734     0.0288     0.952       0       0    0  rs137954053
+MAL          MYELIN                 2    169      0.029     0.644       0       0    0  rs150152179
+MSMO1        PRIMARY                4   1002     0.0344     0.978       0       0    0  rs56313859
+
+  no SNPs / not in gene.loc: EBP, NSDHL, PLP1

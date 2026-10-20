@@ -1,0 +1,21 @@
+============================================================================================
+P1.1-P1.3  ASD common-variant association vs OL-lineage maturation (human infant PFC)
+============================================================================================
+atlas: GSE294786 human infant PFC | genes analysed: 13644
+OL-lineage cells: 3021  (stages OPC=0, COP=1, OL=2)
+
+T_g = expression-weighted mean lineage stage. Negative beta = ASD signal skews PROGENITOR.
+
+M1 naive            : beta=+0.0643 se=0.0223 t=+2.88 p=0.00397  n=13644
+M2 +LOEUF/len/expr  : beta=+0.0113 se=0.0241 t=+0.47 p=0.638  n=13644
+     (LOEUF itself  : beta=-0.0282 t=-1.16 p=0.246)
+M3 quadratic        : lin=-0.0985 (p=0.241)  quad=+0.06218 (p=0.173)  vertex at stage=0.79
+     [pre-registered: overshoot predicts NEGATIVE quad with vertex near COP (stage 1)]
+
+GATE P1.2 -- same model, other lineage specificity axes:
+   spec_neuron  beta=+0.0473 t=+3.36 p=0.000786   [POSITIVE control, expect +]
+   spec_ol      beta=+0.0097 t=+1.00 p=0.32   [focal lineage]
+   spec_astro   beta=-0.0042 t=-0.51 p=0.609   [NEGATIVE control]
+   spec_micro   beta=-0.0111 t=-1.74 p=0.0826   [NEGATIVE control]
+
+PERMUTATION (1000 stage-label shuffles): obs t=+0.47, null -0.75+/-0.92, empirical p=0.7043
